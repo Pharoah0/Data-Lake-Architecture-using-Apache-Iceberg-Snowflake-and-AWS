@@ -1,0 +1,143 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "f7029122-9947-444e-b9c9-55eb9c03744f",
+  "location" : "s3://glue-snowflake-devday-lab-084402156838/iceberg/quoteanalysisiceberg/",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1712779910946,
+  "last-column-id" : 19,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "FULLNAME",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "POSTCODE",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "CUSTID",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "IPID",
+      "required" : false,
+      "type" : "decimal(18, 0)"
+    }, {
+      "id" : 5,
+      "name" : "PRODUCTNAME",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "QUOTECOUNT",
+      "required" : false,
+      "type" : "decimal(18, 0)"
+    }, {
+      "id" : 7,
+      "name" : "POLICYNO",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "QUOTEDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 9,
+      "name" : "QUOTE_PRODUCT",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "ORIGINALPREMIUM",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 11,
+      "name" : "TOTALPREMIUMPAYABLE",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 12,
+      "name" : "CREATEDDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 13,
+      "name" : "BRAND",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "BRANCHCODE",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "POLICY_STATUS_DESC",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 16,
+      "name" : "TYPEOFCOVER_DESC",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 17,
+      "name" : "INSURER_NAME",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 18,
+      "name" : "INCEPTIONDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 19,
+      "name" : "RENEWALDATE",
+      "required" : false,
+      "type" : "date"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "format-version" : "2"
+  },
+  "current-snapshot-id" : 1712779910946000000,
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 1712779910946000000,
+    "timestamp-ms" : 1712779910946,
+    "manifest-list" : "s3://glue-snowflake-devday-lab-084402156838/iceberg/quoteanalysisiceberg/metadata/snap-1712779910946000000.avro",
+    "schema-id" : 0,
+    "summary" : {
+      "total-data-files" : "1",
+      "manifests-replaced" : "0",
+      "added-data-files" : "1",
+      "added-records" : "7717",
+      "total-files-size" : "241664",
+      "operation" : "append",
+      "manifests-kept" : "0",
+      "added-files-size" : "241664",
+      "total-records" : "7717",
+      "manifests-created" : "1"
+    }
+  } ]
+}

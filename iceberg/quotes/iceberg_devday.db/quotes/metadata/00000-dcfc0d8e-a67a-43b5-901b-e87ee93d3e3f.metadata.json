@@ -1,0 +1,462 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "54c5aed9-cb7d-407f-abca-419b330facb4",
+  "location" : "s3://glue-snowflake-devday-lab-084402156838/iceberg/quotes/iceberg_devday.db/quotes",
+  "last-updated-ms" : 1712777848588,
+  "last-column-id" : 40,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "UUID",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "BATCHID",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "QUOTE_PRODUCT",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "QUOTEDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 5,
+      "name" : "QUOTEHOUR",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 6,
+      "name" : "POLICYNO",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "INCEPTIONDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 8,
+      "name" : "EXPIRYDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 9,
+      "name" : "EFFECTIVESTARTDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 10,
+      "name" : "EFFECTIVEENDDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 11,
+      "name" : "PREVINSR",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 12,
+      "name" : "CREDITCHECKSCONSENTIND",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "CREDITSCORE",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 14,
+      "name" : "DATEOFBIRTH",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "HOMEOWNERIND",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 16,
+      "name" : "MARITALSTATUS",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 17,
+      "name" : "VEHICLESAVAILABLE",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 18,
+      "name" : "PRN",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 19,
+      "name" : "SEX",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 20,
+      "name" : "POSTCODEDISTRICT",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 21,
+      "name" : "POSTCODEFULL",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 22,
+      "name" : "POSTCODESECTOR",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 23,
+      "name" : "SURNAME",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 24,
+      "name" : "IPTAMOUNT",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 25,
+      "name" : "NEWRISKPREMIUM",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 26,
+      "name" : "OLDRISKPREMIUM",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 27,
+      "name" : "ORIGINALPREMIUM",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 28,
+      "name" : "PREMIUMINCLIPT",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 29,
+      "name" : "PREMIUMEXCLIPT",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 30,
+      "name" : "TOTALPREMIUMPAYABLE",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 31,
+      "name" : "AGENCYREF",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 32,
+      "name" : "BUSINESSSOURCECODE",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 33,
+      "name" : "INTERMEDIARY_CODE",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 34,
+      "name" : "INSRPMTTYPE",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 35,
+      "name" : "DEBITFRQCY",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 36,
+      "name" : "ADDRESS",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 37,
+      "name" : "FULLNAME",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 38,
+      "name" : "POSTCODE",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 39,
+      "name" : "PHONENUMBER",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 40,
+      "name" : "EMAIL",
+      "required" : false,
+      "type" : "string"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "UUID",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "BATCHID",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "QUOTE_PRODUCT",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "QUOTEDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 5,
+      "name" : "QUOTEHOUR",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 6,
+      "name" : "POLICYNO",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "INCEPTIONDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 8,
+      "name" : "EXPIRYDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 9,
+      "name" : "EFFECTIVESTARTDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 10,
+      "name" : "EFFECTIVEENDDATE",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 11,
+      "name" : "PREVINSR",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 12,
+      "name" : "CREDITCHECKSCONSENTIND",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "CREDITSCORE",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 14,
+      "name" : "DATEOFBIRTH",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "HOMEOWNERIND",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 16,
+      "name" : "MARITALSTATUS",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 17,
+      "name" : "VEHICLESAVAILABLE",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 18,
+      "name" : "PRN",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 19,
+      "name" : "SEX",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 20,
+      "name" : "POSTCODEDISTRICT",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 21,
+      "name" : "POSTCODEFULL",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 22,
+      "name" : "POSTCODESECTOR",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 23,
+      "name" : "SURNAME",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 24,
+      "name" : "IPTAMOUNT",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 25,
+      "name" : "NEWRISKPREMIUM",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 26,
+      "name" : "OLDRISKPREMIUM",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 27,
+      "name" : "ORIGINALPREMIUM",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 28,
+      "name" : "PREMIUMINCLIPT",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 29,
+      "name" : "PREMIUMEXCLIPT",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 30,
+      "name" : "TOTALPREMIUMPAYABLE",
+      "required" : false,
+      "type" : "decimal(28, 2)"
+    }, {
+      "id" : 31,
+      "name" : "AGENCYREF",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 32,
+      "name" : "BUSINESSSOURCECODE",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 33,
+      "name" : "INTERMEDIARY_CODE",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 34,
+      "name" : "INSRPMTTYPE",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 35,
+      "name" : "DEBITFRQCY",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 36,
+      "name" : "ADDRESS",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 37,
+      "name" : "FULLNAME",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 38,
+      "name" : "POSTCODE",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 39,
+      "name" : "PHONENUMBER",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 40,
+      "name" : "EMAIL",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "spark"
+  },
+  "current-snapshot-id" : 3724423407634651150,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 3724423407634651150,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "snapshot-id" : 3724423407634651150,
+    "timestamp-ms" : 1712777848588,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "spark-application-1712777630397",
+      "changed-partition-count" : "0",
+      "total-records" : "0",
+      "total-files-size" : "0",
+      "total-data-files" : "0",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "s3://glue-snowflake-devday-lab-084402156838/iceberg/quotes/iceberg_devday.db/quotes/metadata/snap-3724423407634651150-1-c0bf3d4f-f6cc-4005-9ff4-c358568fb219.avro",
+    "schema-id" : 0
+  } ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1712777848588,
+    "snapshot-id" : 3724423407634651150
+  } ],
+  "metadata-log" : [ ]
+}
