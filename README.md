@@ -37,7 +37,7 @@ Snowflake will read the Glue Data Catalog to create or update Iceberg Tables on 
 Iceberg Tables can then be used with Internal Tables within Snowflake for Data collaboration, BI Analytics with Quicksight, or Machine Learning with SageMaker and other tasks. This allows for seamless integration of data from different sources and formats, enabling comprehensive data analysis and insights.
 
 <p align="center">
-    <img src="" />
+    <img src="https://github.com/Pharoah0/Data-Lake-Architecture-using-Apache-Iceberg-Snowflake-and-AWS/blob/main/images/Iceberg%20Snowflake%20AWS%20External%20Catalog.png" />
 </p>
 
 ###### Option 2:
@@ -49,5 +49,5 @@ Snowflake Catalog metadata can be written to S3, then read by a Glue Crawler to 
 Snowflake can use Iceberg Tables for BI and Machine Learning, and AWS services like EMR, Glue, and Athena from the Glue Data Catalog can also use them!
 
 <p align="center">
-    <img src="" />
+    <img src="https://github.com/Pharoah0/Data-Lake-Architecture-using-Apache-Iceberg-Snowflake-and-AWS/blob/main/images/Iceberg%20Snowflake%20AWS%20Snowflake%20Catalog.png" />
 </p>
