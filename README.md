@@ -3,7 +3,7 @@
 Author: Pharoah Evelyn
 
 <p align="center">
-    <img src="https://github.com/Pharoah0/Data-Lake-Architecture-using-Apache-Iceberg-Snowflake-and-AWS/blob/main/images/Iceberg%20Snowflake%20AWS.drawio.png" />
+    <img src="https://github.com/Pharoah0/Data-Lake-Architecture-using-Apache-Iceberg-Snowflake-and-AWS/blob/main/images/Iceberg%20Snowflake%20AWS.png" />
 </p>
 
 ## Overview
