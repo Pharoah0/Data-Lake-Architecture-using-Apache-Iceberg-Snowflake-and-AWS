@@ -1,4 +1,4 @@
-# Real-Time Streaming Application with Apache Kafka
+# Data Lake Architecture using Apache Iceberg Snowflake and AWS
 
 Author: Pharoah Evelyn
 
